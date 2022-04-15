@@ -4,21 +4,46 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-        <link rel="stylesheet" href="style.css">
-		<script src="app.js" defer></script>
+		<link rel="stylesheet" href="calculatrice.css" />
+
+		<title>calculatrice</title>
 	</head>
 	<body>
-		<form action="#">
-			<label for="nom">Nom :</label>
-			<input  type="text" id="chapeau" />
-			<label  for="prenom">Prenom :</label>
-			<input  id="prenom" type="text" name="prenom" />
-			<label for="telephone">Tél :</label>
-			<input  id="telephone" type="text" name="tel" />
-			<label for="email">Email :</label>
-			<input id="email" type="text" name="email" />
-            <input type="submit"  onclick='getForm()' value="Envoyer" >
-		</form>
+		<div class="container_1">
+			<span class="hello"></span>
+			<div class="lien">
+				<a id="appear" onclick="appear()" href="#"
+					>Fare apparaître la calculatrice</a
+				>
+				||
+				<a id="disappear" onclick="disappear()" href="#"
+					>Faire disparaître la calculatrice</a
+				>
+			</div>
+		</div>
+
+		<div class="container_2">
+			<form action="#">
+				<input type="text" name="first_number" />
+				<select name="choix" id="choix">
+					<option value="+">+</option>
+					<option value="-">-</option>
+					<option value="/">/</option>
+					<option value="*">*</option>
+				</select>
+				<input type="text" name="second_number" />
+				<input
+					type="submit"
+					onclick="cal(event)"
+					name="calcule"
+					value="calculer"
+				/>
+				<div id="informations" class="informations_2"></div>
+			</form>
+		</div>
+		<script src="javascript/prompt_user.js"></script>
+		<script src="javascript/calcule.js"></script>
+		<script src="javascript/bulles_infos.js"></script>
+		<script src="javascript/pop_unpop.js"></script>
 	</body>
 </html>
