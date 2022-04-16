@@ -1,3 +1,95 @@
+@media all and (min-device-width:250px)and (max-device-width:640px){
+
+    .container_1 {
+        width: 50%;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .lien{
+        margin: 10px -16px ;
+        width: 200px;
+        display: flex;
+    }
+    span {
+        font-size: 25px;
+        text-align: center;
+    }
+    input{
+        padding: 4px;
+    }
+    form{
+        margin: 10% auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .container_2 {
+        gap: 20px;
+        margin: 80px auto;
+        width: 100%;
+        height: 40vh;
+        border: 1px solid;
+        border-radius: 20px;
+        background: rgb(34,193,195);
+    background: linear-gradient(56deg, rgba(34,193,195,1) 37%, rgba(37,104,251,1) 100%);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        transition: 300ms ease;
+    }
+    .informations{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(43, 226, 171);
+    height: 6vh;
+    line-height: 3vh;
+    border-radius: 5px;
+    opacity:1;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-device-width:640px){
 .container_1 {
 	width: 50%;
 	margin: 50px auto;
@@ -51,3 +143,4 @@ border-radius: 5px;
 opacity:1;
 }
 
+}
