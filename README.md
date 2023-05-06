@@ -2,4 +2,4 @@
 
 Exercice donné durant ma formation à l'afpa, le but était de pratiquer javascript
 
-https://bescore.github.io/Calculatrice_basique_js/
+https://bescore.github.io/Calculatrice-basique-js/
